@@ -1,0 +1,111 @@
+---
+Title: "RDM Jumpstart"
+pagetitle: "RDM Jumpstart"
+output:
+  html_document:
+    includes:
+      after_body: footer.html
+---
+
+# RDM Jumpstart
+
+## [Data Management for Reproducible Research]{.subtitle}
+
+[**Join us May 12 - 16, 2025 for the pilot edition of the Alliance's Research Data Management Weeklong Workshop, RDM Jumpstart!**]{.intro}
+
+![](images/Alliance_logo_Symbol.png)
+
+This week-long workshop will introduce attendees to best practices in Research Data Management (RDM) using common tools to support research transparency and reproducibility. Robust implementation of RDM principles enables researchers to address bias and reproducibility, effectively share their research, and ensure long term access to their research inputs and outputs. From research question development to findings dissemination, RDM underpins a fruitful and successful academic career.
+
+## What will we cover?
+
+Sessions will address the importance and underlying principles of RDM; we'll explore issues related to RDM and the growing landscape of RDM-related requirements stemming from funders and publishers. Using the [R programming language](https://www.r-project.org/), the [Open Science Framework (OSF)](https://osf.io/), and [Borealis](https://borealisdata.ca/) (Dataverse), we'll explore solutions to address these issues and enable compliance with funder and publisher requirements.
+
+All attendees will work with a common dataset to explore how to ask questions of data using common computational tools. Throughout, attendees will be introduced to: the documentation and metadata requirements to ensure accessibility: considerations to address different aspects of reproducibility; practices to maintain their data's integrity; and ways to ensure their final data deposit is adherent to [FAIR](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable) principles.
+
+## Logistics
+
+| | |
+| --- | --- |
+| Registration opens | March 17. Check back for the link! |
+| Registration closes |	April 9 |
+| Dates | Monday May 12 - Friday May 16 |
+| Cost | Free |
+
+## Draft schedule
+
+Coming soon...
+
+## FAQ
+
+### Is this workshop for me?
+
+This is an entry level workshop. The intended audience includes graduate and early career researchers with no or limited knowledge and experience implementing best practices in RDM or using computational tools ([R](https://www.r-project.org/), [OSF](https://osf.io/), [Borealis](https://borealisdata.ca/)) for research. If you think this describes you, then yes, absolutely, this is for you. Note that this is not a statistics course.
+
+### Is this for a specific discipline?
+
+No. This is open to all disciplines.
+
+### Why are we doing this?
+
+This workshop is being developed recognizing that there is a gap in accessible, foundational learning opportunities for those who have no formal training in RDM and accompanying computational approaches to conducting research. It is intended to help bridge the steep learning curve of those encountering this gap, positioning them to implement foundational skills and effectively leverage more advanced learning opportunities.
+
+### What's the cost?
+
+This is a free workshop.
+
+This offering is made possible through funding from the [Digital Research Alliance of Canada](https://www.alliancecan.ca/en), and in kind contributions from librarians at (from East to West) Carleton University, The University of Calgary, The University of British Columbia, Okanagan, and The University of Victoria.
+
+### How will this be delivered?
+
+Sessions will be delivered over Zoom, and will include a mix of presentations and hands-on activities. 
+
+Please note that this pilot offering will be delivered in English only.
+
+### What are the dates and times?
+
+RDM Jumpstart will run from Monday May 12 to Friday May 16, 2025, inclusive.
+
+Each day will be approximately five hours with breaks and an office hour.
+
+| Time Zone | Start | End |
+| :--- | :--- | :--- |
+| PT | 8:30am | 1:30pm |
+| MT | 9:30am | 2:30pm |
+| CT | 10:30am | 3:30pm 
+| ET | 11:30am | 4:30pm |
+| AT | 12:30pm | 5:30pm |
+| NT | 1:00pm | 6:00pm |
+
+### How do I register?
+
+Enrollment will be limited for this pilot offering and registration will be confirmed subsequent to successful completion of an application.
+
+Registration is a commitment to attend in full the entirety of the week's offerings. Graduate students will require supervisor endorsement. All applicants will be required to include a statement addressing their motivations for applying.
+
+* A registration link will be available on this page starting March 17, 2025.
+* Registration will close April 9, 2025, end of day, Pacific time.
+* We will aim to let accepted applicants know by April 17, 2025.
+
+## I have a question
+
+Please submit your question(s) using the form [at this link](https://docs.google.com/forms/d/e/1FAIpQLSfaAPDzNIr9TW_r7EC5f2In5SCg06S3Mvc0pG4XT7xMN57KXA/viewform?usp=header). We aim to respond within 2 business days.
+
+### Is this worth credit?
+
+No. This is not a formally accredited offering.
+
+Completion of the Jumpstart can be applied to the [Canadian Certificate in Digital Humanities](https://ccdhhn.ca/about-us/), and will meet the requirement for the minimum 20 hours of in-depth workshops. 
+
+### Who is creating and delivering this workshop?
+
+In alphabetic order...
+
+* Erin McCoy, Research Assistant, Carleton University
+* Gia-Huy Hoang, Research Assistant, University of Calgary 
+* Jane Fry, Data Services Librarian, Carleton University
+* Jennifer Abel, Research Data Management Librarian, University of Calgary
+* Maria Amoros, Research Assistant, University of Victoria
+* Mathew Vis-Dunbar, Data Librarian, UBCO
+* Nick Rochlin, Data Science Librarian, University of Victoria
+

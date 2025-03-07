@@ -1,0 +1,91 @@
+#footer {
+  margin-top: 50px;
+}
+
+#rdm-jumpstart {
+  margin-top: 3em;
+}
+
+.intro {
+  font-size: 125%;
+  display: block;
+  padding-top: 5em;
+}
+
+h1 {
+  margin: 3em 0 0 0;
+  width: 70%;
+  font-size: 3em;
+  float: left;
+  border-bottom: 3px solid #D6AB00;
+  padding-bottom: 1em;
+}
+
+.subtitle {
+  width: 70%;
+  float: left;
+}
+
+.section h3 {
+  margin-top: -55px !important;
+}
+
+.section h2 {
+  margin-top: -50px !important;
+}
+
+img {
+  width: 30%;
+  display: block;
+  margin-top: -16.5em;
+  position: static;
+}
+
+table {
+  width: 100%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #8cacd4 !important;
+}
+
+.navbar a:link, .navbar a:visited, .navbar a:active {
+  color: #ffffff !important;
+}
+
+.navbar a:hover {
+  color: #D6AB00 !important;
+}
+
+.dropdown-menu {
+  background-color: #D6AB00 !important;
+}
+
+.active {
+  background-color: #D6AB00 !important;
+}
+
+.active > a, .open > a {
+  background-color: #D6AB00 !important;
+}
+
+.navbar .active a:hover, .navbar .open a:hover {
+  color: #ffffff !important;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #D6AB00 !important;
+}
+
+.navbar-default {
+  background-color: #D6AB00 !important;
+}
+
+.figure p {
+  display: none;
+}
+/*
+pre:not([class]) {
+  background-color: #ecf0f1;
+}
+*/
