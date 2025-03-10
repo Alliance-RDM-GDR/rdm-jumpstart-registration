@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -220,6 +223,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -227,6 +299,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -321,9 +403,43 @@ Accessible, Interoperable, Reusable) principles.</p>
 </tbody>
 </table>
 </div>
-<div id="draft-schedule" class="section level2">
-<h2>Draft schedule</h2>
-<p>Coming soon…</p>
+<div id="draft-program-and-schedule" class="section level2">
+<h2>Draft program and schedule</h2>
+<p><em>Subject to change.</em></p>
+<p><strong>Day 1</strong></p>
+<ul>
+<li>Principles of RDM and FAIR (Findable, Accessible, Interoperable,
+Reusable)</li>
+<li>Integrating RDM in the research data lifecycle</li>
+<li>DMPs (Data Management Plans)</li>
+<li>Setting up a project in OSF</li>
+</ul>
+<p><strong>Day 2</strong></p>
+<ul>
+<li>Licensing concerns as they relate to data</li>
+<li>Introduction to R and RStudio</li>
+</ul>
+<p><strong>Day 3</strong></p>
+<ul>
+<li>File organization, naming, and version control</li>
+<li>Data types in R</li>
+<li>Proprietary and non-proprietary data storage formats</li>
+<li>Preparing data for analysis: recoding, creating new variables, and
+filters</li>
+</ul>
+<p><strong>Day 4</strong></p>
+<ul>
+<li>Best practices for code management</li>
+<li>Data visualization using R</li>
+<li>Structured practice time and Q&amp;A</li>
+</ul>
+<p><strong>Day 5</strong></p>
+<ul>
+<li>Preparing data, code, documentation, and other materials for
+deposit</li>
+<li>Depositing data to Borealis</li>
+<li>Guest speakers and wrap-up</li>
+</ul>
 </div>
 <div id="faq" class="section level2">
 <h2>FAQ</h2>
@@ -433,12 +549,12 @@ time.</li>
 <li>We will aim to let accepted applicants know by April 17, 2025.</li>
 </ul>
 </div>
-</div>
-<div id="i-have-a-question" class="section level2">
-<h2>I have a question</h2>
+<div id="i-have-a-question" class="section level3">
+<h3>I have a question</h3>
 <p>Please submit your question(s) using the form <a
 href="https://docs.google.com/forms/d/e/1FAIpQLSfaAPDzNIr9TW_r7EC5f2In5SCg06S3Mvc0pG4XT7xMN57KXA/viewform?usp=header">at
 this link</a>. We aim to respond within 2 business days.</p>
+</div>
 <div id="is-this-worth-credit" class="section level3">
 <h3>Is this worth credit?</h3>
 <p>No. This is not a formally accredited offering.</p>
@@ -472,6 +588,8 @@ Calgary</li>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -504,6 +622,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

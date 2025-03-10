@@ -3,6 +3,10 @@ Title: "RDM Jumpstart"
 pagetitle: "RDM Jumpstart"
 output:
   html_document:
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+    toc_depth: 2
     includes:
       after_body: footer.html
 ---
@@ -32,9 +36,40 @@ All attendees will work with a common dataset to explore how to ask questions of
 | Dates | Monday May 12 - Friday May 16 |
 | Cost | Free |
 
-## Draft schedule
+## Draft program and schedule
 
-Coming soon...
+*Subject to change.*
+
+**Day 1**
+
+* Principles of RDM and FAIR (Findable, Accessible, Interoperable, Reusable)
+* Integrating RDM in the research data lifecycle
+* DMPs (Data Management Plans)
+* Setting up a project in OSF
+
+**Day 2**
+
+* Licensing concerns as they relate to data
+* Introduction to R and RStudio
+
+**Day 3**
+
+* File organization, naming, and version control
+* Data types in R
+* Proprietary and non-proprietary data storage formats
+* Preparing data for analysis: recoding, creating new variables, and filters 
+
+**Day 4**
+
+* Best practices for code management
+* Data visualization using R
+* Structured practice time and Q&A 
+
+**Day 5**
+
+* Preparing data, code, documentation, and other materials for deposit
+* Depositing data to Borealis
+* Guest speakers and wrap-up
 
 ## FAQ
 
@@ -87,7 +122,7 @@ Registration is a commitment to attend in full the entirety of the week's offeri
 * Registration will close April 9, 2025, end of day, Pacific time.
 * We will aim to let accepted applicants know by April 17, 2025.
 
-## I have a question
+### I have a question
 
 Please submit your question(s) using the form [at this link](https://docs.google.com/forms/d/e/1FAIpQLSfaAPDzNIr9TW_r7EC5f2In5SCg06S3Mvc0pG4XT7xMN57KXA/viewform?usp=header). We aim to respond within 2 business days.
 

@@ -46,6 +46,14 @@ table {
   width: 100%;
 }
 
+.tocify-subheader > li:first-child {
+  display: none;
+}
+
+#TOC ul li ul li:first-of-type {
+  display: none;
+}
+
 a:link, a:visited, a:hover, a:active {
   color: #8cacd4 !important;
 }
