@@ -42,6 +42,7 @@ All attendees will work with a common dataset to explore how to ask questions of
 
 **Day 1**
 
+* What is Research Data Management
 * Principles of RDM and FAIR (Findable, Accessible, Interoperable, Reusable)
 * Integrating RDM in the research data lifecycle
 * DMPs (Data Management Plans)
@@ -130,7 +131,11 @@ Please submit your question(s) using the form [at this link](https://docs.google
 
 No. This is not a formally accredited offering.
 
-Completion of the Jumpstart can be applied to the [Canadian Certificate in Digital Humanities](https://ccdhhn.ca/about-us/), and will meet the requirement for the minimum 20 hours of in-depth workshops. 
+Completion of the Jumpstart can be applied to the [Canadian Certificate in Digital Humanities](https://ccdhhn.ca/about-us/), and will meet the requirement for the minimum 20 hours of in-depth workshops.
+
+### Is this open to people outside of Canada?
+
+As a Canadian funded initiative, applicants affiliated with Canadian institutions will be prioritized. Space permitting, applicants from institutions external to Canada will be considered.
 
 ### Who is creating and delivering this workshop?
 
