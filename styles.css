@@ -93,6 +93,19 @@ a:link, a:visited, a:hover, a:active {
 .figure p {
   display: none;
 }
+
+ .reportLink {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    color: #002145;
+    border: solid 2px D6AB00;
+    background-color: #fff;
+    font-size: 100%;
+  }
+
 /*
 pre:not([class]) {
   background-color: #ecf0f1;
