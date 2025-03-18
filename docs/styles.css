@@ -107,13 +107,13 @@ a:link, a:visited, a:hover, a:active {
   }
 
 .regLink:hover {
-   background-color: #002145;
+   background-color: #D6AB00;
    color: #ffffff;
  }
 
 
 /*
 pre:not([class]) {
-  background-color: #ecf0f1;
+  background-color: #D6AB00;
 }
 */
