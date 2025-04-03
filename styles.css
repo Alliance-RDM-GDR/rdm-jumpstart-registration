@@ -96,19 +96,21 @@ a:link, a:visited, a:hover, a:active {
 
  .regLink {
     width: 30%;
-    margin: 1%;
+    margin: 1% 0;
     float: left;
     text-align: center;
     padding: 20px 0;
     color: #002145;
-    border: solid 2px D6AB00;
+    border: solid 2px #D6AB00;
     background-color: #fff;
     font-size: 100%;
+    font-size: 125%;
   }
 
 .regLink:hover {
    background-color: #D6AB00;
    color: #ffffff;
+   border-color: #ffffff;
  }
 
 

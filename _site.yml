@@ -1,7 +1,5 @@
-name: "RDM Jumpstart"
+name: "RDM Jumpstart Registration"
 output_dir: "docs"
-navbar:
-  title: ""
 output:
   html_document:
     theme: flatly
@@ -9,3 +7,10 @@ output:
     include:
       after_body: footer.html
     css: styles.css
+navbar:
+  title: "RDM Jumpstart Registration"
+  left:
+    - text: "English"
+      href: index.html
+    - text: "French"
+      href: french.html

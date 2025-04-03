@@ -1,0 +1,155 @@
+---
+Title: "RDM Jumpstart"
+pagetitle: "RDM Jumpstart"
+output:
+  html_document:
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+    toc_depth: 2
+    includes:
+      after_body: footer.html
+---
+
+# RDM Jumpstart
+
+## [Gestion de données pour la reproductibilité de la recherche]{.subtitle}
+
+[**JSoyez des nôtres du 12 au 16 mai 2025 pour l’édition pilote du nouvel atelier d’une semaine de l’Alliance sur la gestion des données de recherche : RDM Jumpstart!**]{.intro}
+
+![](images/Alliance_logo_Symbol.png)
+
+Cet atelier d’une semaine explore les pratiques exemplaires de gestion des données de recherche (GDR) et présente des outils courants qui favorisent la transparence et la reproductibilité de la recherche. L’application minutieuse des principes de GDR permet aux chercheuses et chercheurs de réduire les biais et de renforcer la reproductibilité de leurs travaux, de diffuser plus efficacement leur recherche et d’assurer l’accessibilité à long terme de leurs données et résultats. De la définition d’une question de recherche à la publication des résultats, la GDR est la clé d’une carrière fructueuse en recherche.
+
+<a href = "https://docs.google.com/forms/d/e/1FAIpQLSf1ytm3CrL_b8AEB6tuwpYs-6LFVemoRii4xIKieU1Lkfho6w/viewform"><button class = "regLink ">Register now!</button></a>
+
+<br>
+<br>
+<br>
+
+## Sujets couverts
+
+Les séances porteront sur l’importance de la GDR et les principes sous-jacents, de même que sur les difficultés liées à la GDR et à la multiplication des exigences en la matière imposées par les bailleurs de fonds et les revues. À l’aide du [langage de programmation R](https://www.r-project.org/), de l’[Open Science Framework (OSF)](https://osf.io/) et de [Borealis](https://borealisdata.ca/) (Dataverse), nous explorerons des solutions pour surmonter ces difficultés et respecter les exigences des bailleurs de fonds et des revues.
+
+
+Les participantes et participants travailleront sur un jeu de données partagé pour comprendre comment poser des questions de données aux outils informatiques courants. L’atelier couvrira divers concepts : les exigences de documentation et de métadonnées pour l’accessibilité, les différentes considérations de reproductibilité, les pratiques d’intégrité des données, et la conformité des dépôts finaux aux principes [FAIR](https://www.go-fair.org/fair-principles/), selon lesquels les données doivent être faciles à trouver, accessibles, interopérables et réutilisables.
+
+## Logistique
+
+| | |
+| --- | --- |
+| Début de l’inscription | 17 mars | 
+| Fin de l’inscription |	9 avril |
+| Dates | Lundi 12 mai au vendredi 16 mai |
+| Coût | Gratuit |
+
+## Horaire provisoire
+
+*À déterminer.*
+
+**Day 1**
+
+* What is Research Data Management
+* Principles of RDM and FAIR (Findable, Accessible, Interoperable, Reusable)
+* Integrating RDM in the research data lifecycle
+* DMPs (Data Management Plans)
+* Setting up a project in OSF
+
+**Day 2**
+
+* Licensing concerns as they relate to data
+* Introduction to R and RStudio
+
+**Day 3**
+
+* File organization, naming, and version control
+* Data types in R
+* Proprietary and non-proprietary data storage formats
+* Preparing data for analysis: recoding, creating new variables, and filters 
+
+**Day 4**
+
+* Best practices for code management
+* Data visualization using R
+* Structured practice time and Q&A 
+
+**Day 5**
+
+* Preparing data, code, documentation, and other materials for deposit
+* Depositing data to Borealis
+* Guest speakers and wrap-up
+
+## Foire aux questions
+
+### Cet atelier s’adresse-t-il à moi?
+
+Il s’agit d’un atelier d’introduction. Il s’adresse donc aux étudiantes et étudiants des cycles supérieurs et aux chercheuses et chercheurs en début de carrière qui ignorent encore tout ou presque des pratiques exemplaires de la GDR et de l’utilisation d’outils de recherche informatiques, comme [R](https://www.r-project.org/), l’[OSF](https://osf.io/) et [Borealis](https://borealisdata.ca/) Si vous vous retrouvez dans cette description, cet atelier est pour vous! À noter qu’il ne s’agit pas d’un cours de statistique.
+
+### Cet atelier est-il réservé à une discipline précise?
+
+Non. Il est ouvert aux gens de toutes les disciplines.
+
+### Quel est l’objectif de l’atelier?
+
+Cet atelier vise à combler le manque de cours accessibles qui enseignent les bases de la GDR et les approches d’informatique pour la recherche connexes aux personnes sans formation professionnelle en GDR. Nous espérons ainsi adoucir la courbe d’apprentissage pour aider les chercheuses et chercheurs à intégrer les connaissances fondamentales et leur permettre de tirer parti d’occasions d’apprentissage plus avancées.
+
+### Combien ça coûte?
+
+L’atelier est gratuit.
+
+Cette formation est financée par l’[Alliance de recherche numérique du Canada](https://www.alliancecan.ca/en) et soutenue par le travail bénévole de bibliothécaires (d’est en ouest) de l’Université Carleton, de l’Université de Calgary, du campus Okanagan de l’Université de la Colombie-Britannique, et de l’Université de Victoria.
+
+### Comment l’atelier se donnera-t-il?
+
+Il s’agira d’un atelier sur Zoom, avec un mélange de présentations et d’activités pratiques.
+
+**À noter que l’édition pilote sera offerte en anglais seulement.**
+
+### Quel sera l’horaire de l’atelier?
+
+RDM Jumpstart se tiendra du lundi 12 mai au vendredi 16 mai 2025 inclusivement.
+
+Chaque journée durera environ cinq heures, avec des pauses et une heure de bureau.
+
+| | | |
+| :--- | :--- |
+| heure du Pacifique | 8 h 30 à 13 h 30 |
+| heure des Rocheuses | 9 h 30 à 14 h 30 |
+| heure du Centre | 10 h 30 à 15 h 30 
+| heure de l’Est | 11 h 30 à 16 h 30 |
+| heure de l’Atlantique | 12 h 30 à 17 h 30 |
+| heure de Terre-Neuve | 13 h 00 à 18 h 00 |
+
+## Comment puis-je m’inscrire?
+
+Les inscriptions seront limitées pour cette édition pilote. Vous devrez remplir une demande d’inscription et attendre sa confirmation.
+
+Vous devez vous engager à assister à l’entièreté des séances de l’atelier. Les étudiantes et étudiants des cycles supérieurs devront avoir l’approbation de leur conseillère ou conseiller. Vous devrez joindre une lettre de motivation à votre demande.
+
+
+* Un [lien d’inscription](https://docs.google.com/forms/d/e/1FAIpQLSf1ytm3CrL_b8AEB6tuwpYs-6LFVemoRii4xIKieU1Lkfho6w/viewform) sera affiché sur cette page à compter du 17 mars 2025.
+* Les inscriptions se termineront le 9 avril 2025, à la fin de la journée (heure du Pacifique).
+* Nous tâcherons de confirmer auprès des personnes admises d’ici le 17 avril 2025.
+
+### J’ai une question
+
+Vous pouvez soumettre vos questions dans [ce formulaire](https://docs.google.com/forms/d/e/1FAIpQLSfaAPDzNIr9TW_r7EC5f2In5SCg06S3Mvc0pG4XT7xMN57KXA/viewform?usp=header. Nous ferons notre possible pour répondre dans les deux jours ouvrables.
+
+### Est-ce que l’atelier donne des crédits?
+
+Non. La formation n’est pas assortie de crédits.
+
+Toutefois, RDM Jumpstart compte pour le [Certificat canadien en humanités numériques](https://ccdhhn.ca/about-us/) et remplit l’exigence minimale de 20 heures d’ateliers approfondis.
+
+### Qui est derrière cet atelier?
+
+En ordre alphabétique...
+
+* Erin McCoy, assistante de recherche, Université Carleton
+* Gia-Huy Hoang, assistant de recherche, Université de Calgary
+* Jane Fry, bibliothécaire des services liés aux données, Université Carleton
+* Jennifer Abel, bibliothécaire à la gestion des données de recherche, Université de Calgary
+* Maria Amoros-Teijeiro, assistante de recherche, Université de Victoria
+* Mathew Vis-Dunbar, bibliothécaire de données, Université de la Colombie-Britannique, campus Okanagan
+* Nick Rochlin, bibliothécaire de la science des données, Université de Victoria
+
