@@ -21,9 +21,6 @@ output:
 
 This week-long workshop will introduce attendees to best practices in Research Data Management (RDM) using common tools to support research transparency and reproducibility. Robust implementation of RDM principles enables researchers to address bias and reproducibility, effectively share their research, and ensure long term access to their research inputs and outputs. From research question development to findings dissemination, RDM underpins a fruitful and successful academic career.
 
-
-<a href = "https://docs.google.com/forms/d/e/1FAIpQLSf1ytm3CrL_b8AEB6tuwpYs-6LFVemoRii4xIKieU1Lkfho6w/viewform"><button class = "regLink ">Register now!</button></a>
-
 <br>
 <br>
 <br>
