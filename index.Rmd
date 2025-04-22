@@ -22,8 +22,6 @@ output:
 This week-long workshop will introduce attendees to best practices in Research Data Management (RDM) using common tools to support research transparency and reproducibility. Robust implementation of RDM principles enables researchers to address bias and reproducibility, effectively share their research, and ensure long term access to their research inputs and outputs. From research question development to findings dissemination, RDM underpins a fruitful and successful academic career.
 
 <br>
-<br>
-<br>
 
 ## What will we cover?
 
@@ -119,17 +117,8 @@ Each day will be approximately five hours with breaks and an office hour.
 
 ## How do I register?
 
-Enrollment will be limited for this pilot offering and registration will be confirmed subsequent to successful completion of an application.
+Registration for the pilot program has now closed.  Please stay tuned for more info!
 
-Registration is a commitment to attend in full the entirety of the week's offerings. Graduate students will require supervisor endorsement. All applicants will be required to include a statement addressing their motivations for applying.
-
-* Registration will open on March 17, 2025: [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSf1ytm3CrL_b8AEB6tuwpYs-6LFVemoRii4xIKieU1Lkfho6w/viewform)
-* Registration will close April 9, 2025, end of day, Pacific time.
-* We will aim to let accepted applicants know by April 17, 2025.
-
-### I have a question
-
-Please submit your question(s) using the form [at this link](https://docs.google.com/forms/d/e/1FAIpQLSfaAPDzNIr9TW_r7EC5f2In5SCg06S3Mvc0pG4XT7xMN57KXA/viewform?usp=header). We aim to respond within 2 business days.
 
 ### Is this worth credit?
 
